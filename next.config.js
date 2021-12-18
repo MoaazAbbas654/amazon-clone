@@ -3,7 +3,7 @@ module.exports = {
 		domains : [
 			'links.papareact.com',
 			'fakestoreapi.com',
-			'https://m.media-amazon.com/',
+			'm.media-amazon.com',
 		],
 	},
 	reactStrictMode : true,
