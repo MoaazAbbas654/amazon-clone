@@ -12,7 +12,5 @@ export default NextAuth({
 
 		// ...add more providers here
 	],
-	adapter   : TypeORMLegacyAdapter({
-		synchronize : false,
-	}),
+	secret    : process.env.SECRET,
 });

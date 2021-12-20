@@ -1,4 +1,4 @@
-const {
+/* const {
 	PHASE_DEVELOPMENT_SERVER,
 	PHASE_PRODUCTION_SERVER,
 	PHASE_PRODUCTION_BUILD,
@@ -13,7 +13,7 @@ module.exports = () => {
 				GOOGLE_SECRET : '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',
 			},
 		};
-};
+}; */
 
 module.exports = {
 	images          : {
