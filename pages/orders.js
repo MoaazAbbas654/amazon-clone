@@ -5,7 +5,6 @@ import db from '../firebase';
 import { doc, getDocs, collection, orderBy } from 'firebase/firestore';
 import Order from '../components/Order';
 function Orders({ orders }){
-	console.log(process.env);
 	return (
 		<div>
 			<Header />
